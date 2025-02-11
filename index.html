@@ -3,39 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My GitHub Page</title>
+  <title>Research Student Webpage</title>
   <style>
-    /* Basic Reset */
+    /* Base Styles */
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-
-    /* Body Styles */
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background: #f9f9f9;
+      color: #333;
     }
 
-    /* Navbar Container */
+    /* Navbar */
     nav {
-      background: #333;
-      padding: 0.5rem 1rem;
+      background: #005f73; /* Customize to your preferred color */
+      padding: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-
-    /* Navbar Brand/Title */
     .brand {
       color: #fff;
       font-size: 1.5rem;
       text-decoration: none;
       font-weight: bold;
     }
-
-    /* Navbar Menu */
     ul {
       list-style: none;
       display: flex;
@@ -48,85 +43,134 @@
       transition: background 0.3s;
     }
     li a:hover {
-      background: #575757;
-      border-radius: 4px;
+      background: #0a9396; /* Hover color */
+      border-radius: 5px;
     }
 
-    /* Main content container */
+    /* Content Container */
     .content {
-      max-width: 1000px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 1rem;
       background: #fff;
       border-radius: 5px;
     }
+    section {
+      margin: 2rem 0;
+    }
+    section h2 {
+      margin-bottom: 1rem;
+      color: #005f73; /* Section heading color */
+    }
 
-    /* Footer Styles */
+    /* Footer */
     footer {
       text-align: center;
       margin: 2rem 0;
-      color: #666;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <!-- Navigation Bar -->
   <nav>
-    <a href="#" class="brand">My Website</a>
+    <a href="#" class="brand">Your Name</a>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#publication">Publication</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#biography">Biography</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Main Content -->
   <div class="content">
+    <!-- Home Section -->
     <section id="home">
-      <h1>Welcome to My Website</h1>
+      <h2>Welcome</h2>
+      <p>Hello! I’m a graduate student focusing on [Your Research Area]. 
+         Welcome to my personal webpage where I share my academic work, 
+         research interests, and publications. Feel free to explore and 
+         reach out if you’d like to collaborate!</p>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research">
+      <h2>Research</h2>
       <p>
-        This is a simple landing section for your GitHub Pages website. 
-        Feel free to customize it with your own content and style.
+        I am currently exploring topics in [Brief Description of Research Topics].
+        My work focuses on:
+      </p>
+      <ul>
+        <li>Key focus area 1</li>
+        <li>Key focus area 2</li>
+        <li>Key focus area 3</li>
+      </ul>
+      <p>
+        Through this research, I aim to [describe your research goals or 
+        contributions]. I collaborate with [mention your lab, group, or 
+        institute] to advance knowledge in this field.
       </p>
     </section>
 
-    <section id="publication">
-      <h2>Publication</h2>
+    <!-- Publications Section -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <p>Below is a selection of my recent work:</p>
+      <ul>
+        <li>
+          <strong>Paper Title 1</strong><br />
+          Author(s). <em>Journal/Conference Name</em>, Year.
+          <br />
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+            [Link to PDF or journal]
+          </a>
+        </li>
+        <li>
+          <strong>Paper Title 2</strong><br />
+          Author(s). <em>Journal/Conference Name</em>, Year.
+          <br />
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+            [Link to PDF or journal]
+          </a>
+        </li>
+        <!-- Add more publications as needed -->
+      </ul>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="biography">
+      <h2>Biography</h2>
       <p>
-        Here is where you can showcase or link to your publications, 
-        research papers, blog articles, etc.
+        Hello, I’m [Your Name], a [Ph.D./Master’s/Undergraduate student] at 
+        [University/Institution]. Previously, I completed my [Degree] in 
+        [Field of Study] at [Previous Institution]. My academic interests 
+        revolve around [Topics of Interest].
+      </p>
+      <p>
+        In my free time, I enjoy [hobbies/interests], which helps me 
+        maintain a healthy work-life balance.
       </p>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>
-        Use this section to highlight your current or past projects. 
-        Include details, screenshots, or links to GitHub repositories.
-      </p>
-    </section>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Provide a short bio, your background, skills, or anything you 
-        want your visitors to know about you.
-      </p>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
       <h2>Contact</h2>
+      <p>You can reach me at <strong>email@example.com</strong> 
+         or connect with me on 
+         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      </p>
       <p>
-        Share your email, links to social media, or a contact form link here.
+        I’m always open to discussing potential research collaborations, 
+        conference speaking opportunities, or any interesting academic projects.
       </p>
     </section>
   </div>
 
   <!-- Footer -->
   <footer>
-    &copy; 2025 My Website. All rights reserved.
+    &copy; 2025 Your Name. All Rights Reserved.
   </footer>
 </body>
 </html>
