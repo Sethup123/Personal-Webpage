@@ -3,113 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Research Student Webpage</title>
+  <title>Sethupathy Parameswaran</title>
   <style>
-    /* Simple, Clean Styling */
-    body {
-      font-family: Arial, sans-serif;
+    /* Base Reset */
+    * {
       margin: 0;
       padding: 0;
-      background: #fff;
-      color: #333;
+      box-sizing: border-box;
     }
-    nav {
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
       background: #f5f5f5;
-      padding: 0.75rem 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       border-bottom: 1px solid #ddd;
     }
-    .brand {
-      font-weight: bold;
-      font-size: 1.2rem;
-      color: #333;
-      text-decoration: none;
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
     }
-    ul {
-      list-style: none;
-      display: flex;
-      gap: 1rem;
-      margin: 0;
-    }
-    li a {
-      color: #333;
-      text-decoration: none;
-      padding: 0.5rem;
-    }
-    li a:hover {
-      background: #eaeaea;
-      border-radius: 4px;
-    }
-    .content {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    section {
-      margin: 2rem 0;
-    }
-    section h2 {
-      margin-bottom: 1rem;
+    header h2 {
+      font-size: 1.1rem;
+      font-weight: normal;
       color: #555;
     }
+
+    /* Main Content Layout */
+    .wrapper {
+      max-width: 900px;
+      margin: 2rem auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      padding: 0 1rem;
+    }
+    .text-container {
+      flex: 1;
+    }
+    .text-container p {
+      text-align: justify;
+      margin-bottom: 1.2rem;
+      color: #555;
+    }
+
+    /* Profile Picture */
+    .profile-image {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid #ccc;
+    }
+
+    /* Footer */
     footer {
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
       color: #666;
+      border-top: 1px solid #ddd;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <nav>
-    <a href="#" class="brand">Your Name</a>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#research">Research</a></li>
-      <!-- Google Scholar Link -->
-      <li>
+
+  <!-- Header / Title -->
+  <header>
+    <h1>Sethupathy Parameswaran</h1>
+    <h2>PhD Student, Indian Institute of Science</h2>
+  </header>
+
+  <!-- Main Content -->
+  <div class="wrapper">
+    <!-- Profile Image (Left) -->
+    <!-- Replace "profile.jpg" with your actual image file -->
+    <img 
+      src="profile.jpg" 
+      alt="Sethupathy Parameswaran" 
+      class="profile-image"
+    >
+
+    <!-- Text (Right) -->
+    <div class="text-container">
+      <p>
+        I am currently a Ph.D. student at 
+        <a href="https://iisc.ac.in/" target="_blank" rel="noopener noreferrer">
+          Indian Institute of Science
+        </a>
+        under Prof. Suresh Sundaram. Prior to this, I served as a Research Engineer at the 
+        <a href="https://scis.smu.edu.sg/" target="_blank" rel="noopener noreferrer">
+          School of Computing and Information Systems
+        </a>, 
+        Singapore Management University, working under Prof. Yuan Fang. 
+        I am broadly interested in the areas of Computer Vision, NLP and Graph Learning.
+      </p>
+      <p>
+        For a complete list of my publications, you can visit my 
         <a 
-          href="https://scholar.google.com/citations?user=KsAfN_4AAAAJ&hl=en&authuser=1" 
-          target="_blank" 
+          href="https://scholar.google.com/citations?user=KsAfN_4AAAAJ&hl=en&authuser=1"
+          target="_blank"
           rel="noopener noreferrer"
         >
           Google Scholar
         </a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content -->
-  <div class="content">
-    <!-- Home Section -->
-    <section id="home">
-      <h2>Welcome to My Homepage</h2>
-      <p>
-        I am a PhD student at the <strong>Indian Institute of Science</strong>,
-        working under <strong>Prof. Suresh Sundaram</strong>. 
-        My research explores [brief statement of your field or domain]. 
-        I’m passionate about discovering new ideas, collaborating with peers, 
-        and advancing knowledge in this exciting area.
+        profile. Feel free to get in touch if you’d like to discuss potential 
+        collaborations or learn more about my ongoing projects.
       </p>
-    </section>
-
-    <!-- Research Section -->
-    <section id="research">
-      <h2>Research</h2>
-      <p>
-        My current focus is on [your main research topic], utilizing [key methods or tools].
-        I aim to contribute novel insights that have both theoretical and practical impact
-        in the broader field of [your discipline].
-      </p>
-    </section>
+    </div>
   </div>
 
   <!-- Footer -->
   <footer>
-    &copy; 2025 Your Name. All Rights Reserved.
+    &copy; 2025 Sethupathy Parameswaran. All rights reserved.
   </footer>
 </body>
 </html>
