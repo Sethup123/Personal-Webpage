@@ -5,69 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Research Student Webpage</title>
   <style>
-    /* Base Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    /* Simple, Clean Styling */
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background: #fff;
       color: #333;
     }
-
-    /* Navbar */
     nav {
-      background: #005f73; /* Customize to your preferred color */
-      padding: 1rem;
+      background: #f5f5f5;
+      padding: 0.75rem 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      border-bottom: 1px solid #ddd;
     }
     .brand {
-      color: #fff;
-      font-size: 1.5rem;
-      text-decoration: none;
       font-weight: bold;
+      font-size: 1.2rem;
+      color: #333;
+      text-decoration: none;
     }
     ul {
       list-style: none;
       display: flex;
       gap: 1rem;
+      margin: 0;
     }
     li a {
-      color: #fff;
+      color: #333;
       text-decoration: none;
       padding: 0.5rem;
-      transition: background 0.3s;
     }
     li a:hover {
-      background: #0a9396; /* Hover color */
-      border-radius: 5px;
+      background: #eaeaea;
+      border-radius: 4px;
     }
-
-    /* Content Container */
     .content {
-      max-width: 900px;
+      max-width: 800px;
       margin: 2rem auto;
       padding: 1rem;
-      background: #fff;
-      border-radius: 5px;
     }
     section {
       margin: 2rem 0;
     }
     section h2 {
       margin-bottom: 1rem;
-      color: #005f73; /* Section heading color */
+      color: #555;
     }
-
-    /* Footer */
     footer {
       text-align: center;
-      margin: 2rem 0;
-      color: #555;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
@@ -78,9 +69,16 @@
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#biography">Biography</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <!-- Google Scholar Link -->
+      <li>
+        <a 
+          href="https://scholar.google.com/citations?user=KsAfN_4AAAAJ&hl=en&authuser=1" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Google Scholar
+        </a>
+      </li>
     </ul>
   </nav>
 
@@ -88,82 +86,23 @@
   <div class="content">
     <!-- Home Section -->
     <section id="home">
-      <h2>Welcome</h2>
-      <p>Hello! I’m a graduate student focusing on [Your Research Area]. 
-         Welcome to my personal webpage where I share my academic work, 
-         research interests, and publications. Feel free to explore and 
-         reach out if you’d like to collaborate!</p>
+      <h2>Welcome to My Homepage</h2>
+      <p>
+        I am a PhD student at the <strong>Indian Institute of Science</strong>,
+        working under <strong>Prof. Suresh Sundaram</strong>. 
+        My research explores [brief statement of your field or domain]. 
+        I’m passionate about discovering new ideas, collaborating with peers, 
+        and advancing knowledge in this exciting area.
+      </p>
     </section>
 
     <!-- Research Section -->
     <section id="research">
       <h2>Research</h2>
       <p>
-        I am currently exploring topics in [Brief Description of Research Topics].
-        My work focuses on:
-      </p>
-      <ul>
-        <li>Key focus area 1</li>
-        <li>Key focus area 2</li>
-        <li>Key focus area 3</li>
-      </ul>
-      <p>
-        Through this research, I aim to [describe your research goals or 
-        contributions]. I collaborate with [mention your lab, group, or 
-        institute] to advance knowledge in this field.
-      </p>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications">
-      <h2>Publications</h2>
-      <p>Below is a selection of my recent work:</p>
-      <ul>
-        <li>
-          <strong>Paper Title 1</strong><br />
-          Author(s). <em>Journal/Conference Name</em>, Year.
-          <br />
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-            [Link to PDF or journal]
-          </a>
-        </li>
-        <li>
-          <strong>Paper Title 2</strong><br />
-          Author(s). <em>Journal/Conference Name</em>, Year.
-          <br />
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer">
-            [Link to PDF or journal]
-          </a>
-        </li>
-        <!-- Add more publications as needed -->
-      </ul>
-    </section>
-
-    <!-- Biography Section -->
-    <section id="biography">
-      <h2>Biography</h2>
-      <p>
-        Hello, I’m [Your Name], a [Ph.D./Master’s/Undergraduate student] at 
-        [University/Institution]. Previously, I completed my [Degree] in 
-        [Field of Study] at [Previous Institution]. My academic interests 
-        revolve around [Topics of Interest].
-      </p>
-      <p>
-        In my free time, I enjoy [hobbies/interests], which helps me 
-        maintain a healthy work-life balance.
-      </p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>You can reach me at <strong>email@example.com</strong> 
-         or connect with me on 
-         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
-      </p>
-      <p>
-        I’m always open to discussing potential research collaborations, 
-        conference speaking opportunities, or any interesting academic projects.
+        My current focus is on [your main research topic], utilizing [key methods or tools].
+        I aim to contribute novel insights that have both theoretical and practical impact
+        in the broader field of [your discipline].
       </p>
     </section>
   </div>
